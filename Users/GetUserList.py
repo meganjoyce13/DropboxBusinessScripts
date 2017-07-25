@@ -167,4 +167,4 @@ print '\n\nTotal Members found: %s' % totalMembers
 totalTimeStop = datetime.datetime.fromtimestamp(time.time())
 totalTimeInSeconds = (totalTimeStop-totalTimeStart).total_seconds()
 timeAsStr = printTimeInHoursMinutesSeconds( totalTimeInSeconds )
-printmessageblock( " Script finished running, it took %s seconds." % ( timeAsStr ) )
+printmessageblock( " Script finished running, it took %s." % ( timeAsStr ) )
